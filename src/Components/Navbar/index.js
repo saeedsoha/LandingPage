@@ -27,7 +27,7 @@ const Navbar = ({ togle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={togleHome}>Dolla</NavLogo>
+                    <NavLogo to='/' onClick={togleHome}>TBank</NavLogo>
                     <MobileIcon onClick={togle} >
                         <FaBars />
                     </MobileIcon>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { ArrowFowward, ArrowRight, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, VideoBg } from './HeroElements'
+import { ArrowFowward, ArrowRight, HeroBg,Span, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, VideoBg } from './HeroElements'
 import Video from '../../videos/video_3.mp4'
 import { Button } from '../ButtonElement'
+import TextAnimation from '../Animations/TextAnimation'
 
 const HeroSction = () => {
     const [hover, setHover] = useState(false)
@@ -15,7 +16,7 @@ const HeroSction = () => {
                 <VideoBg autoPlay={true} muted  loop src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Virtual Banking made Easy</HeroH1>
+                <HeroH1><TextAnimation/> </HeroH1>
                 <HeroP>
                     Sign up for new account today and receive in
                     credit towards your

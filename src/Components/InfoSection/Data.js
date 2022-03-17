@@ -1,10 +1,16 @@
+
+
+
+
+
+
 export const homeObjOne= {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc:true,
     topLine:'Premium Bank',
-    headline: 'Unlimited Transactions with Zero fees',
+    headline: 'Virtual Banking made easy' ,
     description: 'Get access to pur exclusive app theta allowa you to send unlimited transactions without getting charged any fees',
 
     buttonLable: 'Get started',
@@ -44,6 +50,23 @@ export const homeObjThree= {
     buttonLable: 'Start now',
     imgStart:true,
     img: require('../../Images/svg-3.svg').default,
+    alt:'car',
+    dark:true,
+    primary: true,
+    darkText:false,
+}
+export const homeObjFour = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc:true,
+    topLine:'Premium Bank',
+    headline: "Transactions with Zero fees" ,
+    description: 'Get access to pur exclusive app theta allowa you to send unlimited transactions without getting charged any fees',
+
+    buttonLable: 'Get started',
+    imgStart:false,
+    img: require('../../Images/svg-4.svg').default,
     alt:'car',
     dark:true,
     primary: true,

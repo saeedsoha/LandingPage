@@ -1,5 +1,11 @@
 import styled from 'styled-components'
+import { keyframes } from 'styled-components'
 
+
+const animation = keyframes`
+    0% {opacity: 0; transform: translateY(-50px) rotate(180deg) ;  }
+    100% {opacity: 1; transform: translateY(0) rotate(0) ;  }
+`
 
 export const BackToContainer = styled.div`
     display: ${({activeDisplay}) => (activeDisplay ? 'block' : 'none')} ;
@@ -14,6 +20,9 @@ export const BackToContainer = styled.div`
     z-index: 1000;
     cursor: pointer;
     transition: all 0.5s ease-out; 
+    animation-name: ${animation};
+    animation-duration: 1s;
+    
 
 `
 export const BacktoTopIcon = styled.div`

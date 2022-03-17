@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import BacktoTopButton from '../BacktoTopButton'
+import BacktoTopButton from '../Components/BacktoTopButton'
 import Footer from '../Components/Footer'
 import HeroSction from '../Components/HeroSection'
 import InfoSection from '../Components/InfoSection'
-import { homeObjOne,homeObjTwo ,homeObjThree,homeObjTFour,homeObjFive ,homeObjTSix} from '../Components/InfoSection/Data'
+import { homeObjOne,homeObjTwo ,homeObjThree,homeObjFour} from '../Components/InfoSection/Data'
 import Navbar from '../Components/Navbar'
 import Services from '../Components/Services'
 import Sidebar from '../Components/Sidebar'
@@ -21,7 +21,7 @@ const Home = () => {
         <Sidebar togle={togle} isOpen={isOpen} />
         <Navbar togle={togle}/>
         <HeroSction/>
-        <InfoSection {...homeObjOne }/>
+        <InfoSection {...homeObjOne } />
         <InfoSection {...homeObjTwo }/>
         <Services />
         <InfoSection {...homeObjThree }/>
